@@ -6,11 +6,12 @@ function func() {
     count++;
     console.log(count);
   };
+
+  //   innerFunc(count);
 }
-
-const counter = func();
-
-counter();
-counter();
-counter();
-counter();
+func();
+func();
+func();
+func();
+func();
+func();
